@@ -1,6 +1,6 @@
-#Project 1
+#Project 1- Step 3
 #NAME(S): Gaby Ackermann Logan and Tara Donohue
-#HOURS WORKED ON:
+#HOURS WORKED ON: 1
 
 import microbit as mb
 import radio  # Needs to be imported separately
@@ -28,9 +28,6 @@ while not mb.button_a.is_pressed():
     x = mb.accelerometer.get_x()
     y = mb.accelerometer.get_y()
     z = mb.accelerometer.get_z()
-#     x_data = find_tilt_x(x, y, z)
-#     y_data = find_tilt_y(x, y, z)
-#     z_data = find_tilt_z(x, y, z)
     message1 = (x ,y ,z , time)
     message = str(message1)
     radio.send(message)

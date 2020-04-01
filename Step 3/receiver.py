@@ -19,7 +19,6 @@ while not incoming == 'start':
     incoming = radio.receive()
 print('start')
 
-
 while True:
     incoming = radio.receive() # Read from radio
 

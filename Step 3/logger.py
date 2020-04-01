@@ -4,7 +4,6 @@
 
 import microbit as mb
 import radio  # Needs to be imported separately
-import math
 import time
 
 
@@ -32,7 +31,5 @@ while not mb.button_a.is_pressed():
     message = str(message1)
     radio.send(message)
     mb.sleep(10)
-
-
 
 mb.display.show(mb.Image.SQUARE)  # Display Square when program ends

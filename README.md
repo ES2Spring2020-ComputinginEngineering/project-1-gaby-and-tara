@@ -1,20 +1,10 @@
 # Project1
-Project 1 Starter Code
 
-Names:
-Team Name:
+NAME(S):Gaby Ackermann Logan and Tara Donohue
+TEAM NAME:Gaby and Tara
 
-Your primary tasks will be to:
+DESCRIPTION: This project analyzes the motion of a pendulum. It uses data from a theoretical equation, real-world data collection, and simulated trials to calculate three different period durations for five lengths of a pendulum.
 
-- build a pendulum,
-- use theoretical equations (from physics) to calculate the period of the pendulum,
-- collect real-world experimental data from your pendulum,
-- create a computer simulation of your pendulum numerically,
-- plot and extract meaningful results 2 through 4
+INSTRUCTIONS:There are 4 folders that are labeled with each “step” of the project and designated Read Me’s, explaining each part.
 
-Your final submission should include (on GitHub):
 
-All of your updated Python files
-A README.md file explaining what .py files to run to get your results
-A .pdf file containing your final plots and a brief report and discussion of results
-At least five micro:bit data files from a pendulum for testing your parsing code.
